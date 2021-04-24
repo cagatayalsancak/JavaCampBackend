@@ -1,0 +1,28 @@
+
+İlkel Veri Tipleri - Primitive Data Types
+
+byte	1 byte	-128'den 127'ye kadar olan tam sayıları depolar
+short	2 bytes	-32.768'den 32.767'ye kadar olan tam sayıları depolar
+int	4 bytes	2.147.483.648 ile 2.147.483.647 arasındaki tam sayıları depolar
+long	8 bytes	-9,223,372,036,854,775,808'den 9,223,372,036,854,775,807'ye kadar olan tam sayıları depolar
+float	4 bytes	Kesirli sayıları depolar. 6-7 ondalık basamağı depolamak için yeterlidir.
+double	8 bytes	Kesirli sayıları depolar. 15 ondalık basamağı depolamak için yeterlidir.
+boolean	1 bit	Doğru veya yanlış değerleri depolar. (True/False veya 1/0)
+char	2 bytes	Tek bir karakter/harf veya ASCII değerleri depolar.
+
+İlkel Olmayan Veri Tipleri - Referans Veri Tipi
+
+Strings - Veri tipi karakterleri metin bir diziyi depolamak için kullanılır. Dize değerleri çift tırnak içine alınmalıdır.
+Arrays - Her bir değer için ayrı değişkenler bildirmek yerine, birden çok değeri tek bir değişkende depolamak için kullanılır.(Listeleme)
+Interfaces - Nesne Yönelimli Programlamada Sınıflandırılmış verileri soyutlamak için kullanılır.
+Classes - Nesneleleri niteliklerine ve yöntemlerine göre sınıflandırmak için kullanılır.
+
+Boş Veri Tipi
+Null - Herhangi bir değer atanmamış veri tipidir.
+
+İlkel Veri Tipleri ile Referans Tipler arasındaki farklar
+İlkel türler Java'da önceden tanımlanmıştır. İlkel olmayan türler programcı tarafından oluşturulur ve Java tarafından tanımlanmaz (hariç String).
+İlkel olmayan türler, belirli işlemleri gerçekleştirmek üzere yöntemleri çağırmak için kullanılabilirken ilkel türler bunu yapamaz.
+İlkel bir tür her zaman bir değere sahipken ilkel olmayan null türler olabilir.
+İlkel türler küçük harfle başlarken, ilkel olmayan türler büyük harfle başlar.
+İlkel olmayan türlerin tümü aynı boyuta sahipken, ilkel bir türün boyutu veri türüne bağlıdır.
