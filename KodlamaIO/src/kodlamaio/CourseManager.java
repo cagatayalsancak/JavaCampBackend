@@ -1,4 +1,4 @@
-package KodlamaIO;
+package kodlamaio;
 
 public class CourseManager {
 	public void addToCourse(Courses course) {

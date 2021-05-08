@@ -1,4 +1,4 @@
-package KodlamaIO;
+package kodlamaio;
 
 public class Instructors {
 	
