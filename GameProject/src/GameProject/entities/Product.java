@@ -6,6 +6,7 @@ public class Product {
 	private double unitPrice;
 	Campaign discountRatio;
 	double unitPriceAfterDiscount;
+	private Category categoryId;
 	
 	public Product() {
 		
@@ -16,7 +17,7 @@ public class Product {
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;
-		this.categoryId = categoryId;
+		this.setCategoryId(categoryId);
 	}
 
 	public int getId() {
@@ -35,6 +36,14 @@ public class Product {
 		this.name = name;
 	}
 
+	public Category getCategoryId() {
+		return categoryId;
+	}
+
+	public void setCategoryId(Category categoryId) {
+		this.categoryId = categoryId;
+	}
+
 	public double getUnitPrice() {
 		return unitPrice;
 	}
@@ -45,7 +54,7 @@ public class Product {
 
 	public Campaign getCampaignDiscountRatio() {
 		
-		return this.discountRatio;
+		return discountRatio;
 	}
 
 	public void setCampaignDiscountRatio(Campaign discountRatio) {
@@ -54,10 +63,8 @@ public class Product {
 	}
 
 	public double getUnitPriceAfterDiscount() {
-		if(discountRatio.getDiscountRatio() > 0) {
-		return unitPrice - (unitPrice * this.discountRatio.getDiscountRatio() / 100);
-		}
-		return unitPrice - discountRatio.getDiscountRatio();
+		unitPrice = unitPrice - (unitPrice * discountRatio.getDiscountRatio() / 100); 
+		return unitPrice;
 	}
 	
 	

@@ -1,26 +1,25 @@
 package GameProject.business;
 
 import GameProject.entities.Campaign;
-import GameProject.entities.Product;
 
 public class CampaignManager implements CampaignService {
 
 	@Override
-	public void add(Product product, Campaign campaign) {
-		System.out.println(product.getName() + " ürünü için " + campaign.getName() + " kampanyasý kapsamýnda %" + campaign.getDiscountRatio() + " indirim uygulanmýþtýr."
-				+ "\n" + product.getName() + " ürünün yeni fiyatý : " + product.getUnitPriceAfterDiscount() + " TL");
+	public void add(Campaign campaign) {
+		
+		System.out.println(campaign.getName() + " adlý kampanya %" + campaign.getDiscountRatio() + " indirim ile baþlamýþtýr.");
 		
 	}
 
 	@Override
-	public void update(Product product, Campaign campaign) {
-		System.out.println(product.getName() + " ürününe uygulanan " + campaign.getName() + " kampanyasýnda güncelleme yapýlmýþtýr.");
+	public void update(Campaign campaign) {
+		System.out.println(campaign.getName() + " kampanyasýnda güncelleme yapýlmýþtýr.");
 		
 	}
 
 	@Override
-	public void delete(Product product, Campaign campaign) {
-		System.out.println(product.getName() + " ürününe uygulanan " + campaign.getName() + " kampanyasý sona ermiþtir. ");
+	public void delete(Campaign campaign) {
+		System.out.println(campaign.getName() + "kampanya sona ermiþtir. ");
 		
 	}
 

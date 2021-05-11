@@ -11,16 +11,10 @@ public class CategoryManager implements CategoryService {
 	}
 
 	@Override
-	public void update(Category category, Category newCategory) {
+	public void update(Category category) {
 		
-		if(category.getId() == newCategory.getId()) {
-		category.setName(newCategory.getName());
-		category.setDescription(newCategory.getDescription());
-		System.out.println("Kategori güncellendi : " + newCategory.getName() + " : " + newCategory.getDescription());
-		} else {
-			System.out.println("Güncellemek istediðiniz kategoriyi seçin.");
-		}
-		
+		System.out.println("Kategori güncellendi : " + category.getName() + " : " + category.getDescription());
+	
 	}
 
 	@Override

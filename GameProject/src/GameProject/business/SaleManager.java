@@ -8,7 +8,7 @@ public class SaleManager implements SaleService {
 	@Override
 	public void sell(Product product, Player player) {
 		System.out.println(product.getName() + " ürünü " + player.getFirstName() + " " + player.getSurName()
-							+ " adlý oyuncuya " + product.getUnitPrice() + " TL\'ye satýþý gerçekleþmiþtir. ");
+							+ " adlý oyuncuya " + product.getUnitPriceAfterDiscount() + " TL\'ye satýþý gerçekleþmiþtir. ");
 		
 	}
 	@Override

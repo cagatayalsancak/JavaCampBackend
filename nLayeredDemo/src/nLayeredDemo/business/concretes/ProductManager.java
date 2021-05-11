@@ -10,6 +10,7 @@ import nLayeredDemo.entities.concretes.Product;
 
 public class ProductManager implements ProductService{
 	
+	
 	private ProductDao productDao;
 	private LoggerService loggerService;
 
