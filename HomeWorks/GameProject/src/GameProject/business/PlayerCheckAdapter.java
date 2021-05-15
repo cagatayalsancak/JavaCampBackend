@@ -31,18 +31,4 @@ public class PlayerCheckAdapter implements PlayerCheckService {
 	}
 	
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-}
