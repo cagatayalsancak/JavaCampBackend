@@ -2,7 +2,9 @@ package coffeeshop.entities.concretes;
 
 import java.util.Date;
 
-public class Customer {
+import coffeeshop.entities.abstracts.Entity;
+
+public class Customer implements Entity {
 	
 	private int id;
 	private String firstName;
