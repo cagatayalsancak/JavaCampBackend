@@ -1,0 +1,5 @@
+package coffeeshop.business.concretes;
+
+public class NeroCustomerManager {
+
+}

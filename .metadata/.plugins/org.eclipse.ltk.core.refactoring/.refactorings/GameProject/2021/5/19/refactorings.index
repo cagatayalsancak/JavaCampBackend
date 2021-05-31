@@ -1,0 +1,28 @@
+1620007131734	Delete element
+1620007209870	Rename compilation unit 'ValidationManager.java'
+1620317757903	Delete element
+1620317779342	Rename type 'ValidationService'
+1620317827981	Rename type 'ManagerService'
+1620317964376	Move compilation units
+1620318261025	Delete elements
+1620318464862	Move compilation unit
+1620348898559	Delete elements
+1620349931640	Delete element
+1620349938250	Delete element
+1620411383168	Rename type 'Users'
+1620411402343	Rename type 'Products'
+1620411413450	Rename type 'Games'
+1620411426383	Rename type 'Gamers'
+1620412271679	Rename type 'Categories'
+1620412281965	Rename type 'Campaigns'
+1620418555670	Delete element
+1620418628083	Rename type 'UserService'
+1620418718860	Rename type 'GamerService'
+1620418760207	Rename type 'Gamer'
+1620418947314	Rename type 'BaseUserManager'
+1620426579573	Rename compilation unit 'MernisCheckAdapter.java'
+1620426625413	Rename compilation unit 'UserCheckAdapter.java'
+1620426677737	Rename type 'UserCheckService'
+1620431085327	Delete element
+1620431093402	Rename type 'ProductService1'
+1620437833013	Delete element

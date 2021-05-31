@@ -1,0 +1,5 @@
+package coffeeshop.business.abstracts;
+
+public interface CustomerService {
+
+}

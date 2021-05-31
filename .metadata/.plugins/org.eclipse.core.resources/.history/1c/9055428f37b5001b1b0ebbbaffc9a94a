@@ -1,0 +1,84 @@
+package coffeeshop.entities.concretes;
+
+import java.util.Date;
+
+public class Customer {
+	
+	private int id;
+	private String firstName;
+	private String surName;
+	private Date dateOfBirthYear;
+	private String NationalIdentity;
+	
+	
+	public Customer() {
+		
+	}
+
+
+	public Customer(int id, String firstName, String surName, Date dateOfBirthYear, String nationalIdentity) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.surName = surName;
+		this.dateOfBirthYear = dateOfBirthYear;
+		NationalIdentity = nationalIdentity;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+
+	public String getSurName() {
+		return surName;
+	}
+
+
+	public void setSurName(String surName) {
+		this.surName = surName;
+	}
+
+
+	public Date getDateOfBirthYear() {
+		return dateOfBirthYear;
+	}
+
+
+	public void setDateOfBirthYear(Date dateOfBirthYear) {
+		this.dateOfBirthYear = dateOfBirthYear;
+	}
+
+
+	public String getNationalIdentity() {
+		return NationalIdentity;
+	}
+
+
+	public void setNationalIdentity(String nationalIdentity) {
+		NationalIdentity = nationalIdentity;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

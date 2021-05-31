@@ -1,0 +1,33 @@
+package GameProject;
+
+import GameProject.entities.Campaign;
+import GameProject.entities.Category;
+import GameProject.entities.Game;
+import GameProject.entities.Player;
+
+//
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Category category1 = new Category(1, "FPS", "Multiplayer Game");
+		Game game1 = new Game(1, "Call of Duty: Black Ops Cold War", 
+				category1.getCategoryId());
+		game1.setUnitPrice(600);
+		
+		Player player1 = new Player(1, "Mehmet Çaðatay", "ALSANCAK", 1993, "12548659855", "cagatay.alsancak71@gmail.com");
+		Campaign campaign1 = new Campaign(1, "Black Friday", 50);
+		
+		game1.setCampaignDiscountRatio(campaign1);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package GameProject;
+
+import GameProject.entities.Game;
+
+//
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Game game1 = new Game();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package coffeeshop.business.concretes;
+
+import coffeeshop.business.abstracts.CustomerService;
+import coffeeshop.entities.concretes.Customer;
+
+public class StarbuckCustomerManager implements CustomerService {
+		
+		
+		
+		@Override
+		public void save(Customer customer) {
+			if() {
+				
+			}
+			
+		}
+
+}

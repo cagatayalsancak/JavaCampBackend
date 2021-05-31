@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Main.java&apos; to &apos;GameProject/src&apos;&#x0D;&#x0A;- Original project: &apos;Mernis&apos;&#x0D;&#x0A;- Destination element: &apos;GameProject/src&apos;&#x0D;&#x0A;- Original element: &apos;mernis.Main.java&apos;" description="Copy compilation unit" destination="=GameProject/src" element1="/src&lt;mernis{Main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1620318450825" units="1" version="1.0"/>
+</session>

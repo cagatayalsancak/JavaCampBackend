@@ -1,0 +1,7 @@
+package coffeeshop.business.concretes;
+
+import coffeeshop.business.abstracts.CustomerService;
+
+public class NeroCustomerManager implements CustomerService {
+
+}

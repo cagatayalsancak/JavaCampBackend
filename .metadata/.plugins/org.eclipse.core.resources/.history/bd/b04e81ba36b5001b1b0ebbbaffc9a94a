@@ -1,0 +1,33 @@
+package coffeeshop;
+
+import java.util.GregorianCalendar;
+
+import coffeeshop.business.abstracts.BaseCustomerManager;
+import coffeeshop.business.concretes.MernisCheckAdapter;
+import coffeeshop.business.concretes.NeroCustomerManager;
+import coffeeshop.business.concretes.StarbucksCustomerManager;
+import coffeeshop.entities.concretes.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Customer customer1 = new Customer();
+		customer1.setId(1);
+		customer1.setFirstName("Mehmet Çaðatay");
+		customer1.setSurName("Alsancak");
+		customer1.setDateOfBirthYear(new GregorianCalendar(1993,12,02).getTime());
+		customer1.setNationalIdentity("10638132240");
+		
+		BaseCustomerManager starbucksCustomerManager = new StarbucksCustomerManager();
+		starbucksCustomerManager.add(customer1);
+		
+		BaseCustomerManager neroCustomerManager = new NeroCustomerManager();
+		neroCustomerManager.add(customer1);
+		
+		
+		
+		
+	}
+
+}

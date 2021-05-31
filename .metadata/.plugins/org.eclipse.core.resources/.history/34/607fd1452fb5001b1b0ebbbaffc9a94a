@@ -1,0 +1,14 @@
+package coffeeshop.business.concretes;
+
+import coffeeshop.business.abstracts.CustomerService;
+import coffeeshop.entities.concretes.Customer;
+
+public class NeroCustomerManager implements CustomerService {
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
